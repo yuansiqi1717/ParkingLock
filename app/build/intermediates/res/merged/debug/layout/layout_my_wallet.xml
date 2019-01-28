@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/color999"
+    android:gravity="center_horizontal">
+    <!--我的钱包-->
+    <include layout="@layout/top_common"
+        android:visibility="gone"></include>
+
+    <LinearLayout
+        android:id="@+id/ll_recharge"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg3"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:text="¥"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:text="0"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                android:id="@+id/id_balance"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="我的余额"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:textSize="15sp"
+            android:id="@+id/id_forget_pwd"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:background="@color/white">
+        <RelativeLayout
+            android:id="@+id/id_rl_integral"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:clickable="true"
+            android:background="@drawable/select_white_bg1"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="我的积分"
+                android:textSize="16sp"
+                android:textColor="@color/color333"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color666"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/iv_right" />
+
+            <ImageView
+                android:id="@+id/iv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/into"
+                />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color999" />
+        <RelativeLayout
+            android:id="@+id/id_rl_recharge"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:clickable="true"
+            android:background="@drawable/select_white_bg1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="充值记录"
+                android:textSize="16sp"
+                android:textColor="@color/color333"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/into"
+                />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color999" />
+        <RelativeLayout
+            android:id="@+id/id_rl_card"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:clickable="true"
+            android:background="@drawable/select_white_bg1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="会员卡"
+                android:textSize="16sp"
+                android:textColor="@color/color333"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color333"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/into"
+                />
+
+
+        </RelativeLayout>
+
+
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/id_recharge_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/select_orange_bg4"
+        android:text="充值"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:enabled="true"
+        android:visibility="visible"/>
+
+
+</LinearLayout>

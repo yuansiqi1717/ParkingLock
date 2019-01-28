@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\lib.fast\build\intermediates\bundles\default\libs\adapter-rxjava2-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="a8aa600d35e0f6463cfa7e367b826382d192f300">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\8\adapter-rxjava2-2.4.0_94d402595fceace052a0dbde7dbd69d4bb1c4854\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\umeng-share-alipay-6.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="403bdbcd5065b1ac957e46e33f3c5f2d8a455326">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-share-alipay-6.9.3_fe1d45a455750c52d664842931281539bcd74d42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\umeng-share-sina-simplify-6.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="ea07b3e9e7cb2c07a6fa864bd97aaf69d03da601">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-share-sina-simplify-6.9.3_a116f0400c3f5df80a76e52cd080b4c32eb77090\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\libapshare20161108.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="2d8b4310ece30856c8ba01a6e74f11ba55ddc774">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\libapshare20161108_5ace4c83bb4dd18b2aed7e6491d4870080996749\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\lib.fast\build\intermediates\bundles\default\libs\json_simple-1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="e7ec75025561e0d01667c0bfb565cfd51ef0e83e">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\8\json_simple-1.1_9ede1eed43437f76e11b7302505791866b4bc321\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\SecurityEnvSDK-release-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="528bb51db71221752331ec62ea8cfe370d5c451e">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\SecurityEnvSDK-release-1.1.0_946e3dcedc4640bf081863734f0cb21250b9b097\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\umeng-common-1.5.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="106d497cd0a6d8d6eb28a6ec664f5dc549e5e3e9">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-common-1.5.4_ca44593081849fd3e5b47a34beee52cb995c00d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\lib.fast\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="84937c6cbc57d06f667ca67863f85725b8134705">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_33631e35abf76843ea6f628513753fa9f8310a28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\umeng-share-core-6.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="e2c9c41185722fa61573c549e0e84660125bf89b">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-share-core-6.9.3_7ea030d271a409827dd1c9bd0189b41ed710da6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\wechat-sdk-android-with-mta-5.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="2a867edf0fb47c112e512e8d6440554b1cf67ac6">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\wechat-sdk-android-with-mta-5.1.6_225fb9d1a83b8d622cbde54e78587beb65a67ee8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\logger.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="c69bbeab66d1f7cba66b9ee3b10bc3922645ac34">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\logger_4fcd77ecf05285d4d30d8128b29b8fd770759619\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\umeng-sharetool-6.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="9033e1376131272ca1e792f2834f7936bf67ebe0">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-sharetool-6.9.3_0196bb0e15b5f688ff2ca700a14af583988c9d64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\java_websocket.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="35f488c2a8cb28569c1bbf69abcb1b8b04db8e01">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\java_websocket_348bc8bdd6e75a67523ccf02fc5ac75c1c34eb0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\umeng-share-QQ-simplify-6.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="f99adfb9812fa1da79cf7bc16fe8eaea2f8771fe">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-share-QQ-simplify-6.9.3_33e3467c814bfd753f01553686310241450b17f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\ultrapulltorefresh.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="81892a1d6e55a5452b425b4d62b951c643875c65">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\ultrapulltorefresh_ae069394bfbd67cbd35128799c19980e083ed619\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\umeng-shareboard-widget-6.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="52e68bf2e24da7ebe26603684e9e1381943adccb">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-shareboard-widget-6.9.3_d91468afb4a3b33da6857b3accfde9bf387b879b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\umeng-share-wechat-simplify-6.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="37e1ead51bff73305c9d6abbe8155bf33007ef4f">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-share-wechat-simplify-6.9.3_0cab509a84aa064df63b2efc57a0f570d7e83258\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\lib.fast\build\intermediates\bundles\default\libs\litepal-1.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="57e6e6066f49231adf67595686cda5697f750eea">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\8\litepal-1.6.1_90c98bb867c88af5cf747c3d55352c611cff9dc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="9591711757a7be3daccd574ecd3d3212b5dac792">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_2dc5c94dfbb431a457e14f9c2b235e869255b995\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\jpush-android-3.1.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="1ea485b369e6696b7d4276c894ae1bd64a340f34">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\jpush-android-3.1.7_9c71bcd2093d018ce6b047ed4ac6d9b5324cfed0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\okhttputils.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="dd5c82ff37160318b91e0c5f112cee95ef555ca2">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\okhttputils_570bc98b98bd4e2c08158bf8541275809162d87e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\app\libs\jcore-android-1.2.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="58ec577a37b6955f5ea1db8ef707a9ec0068984f">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\2\jcore-android-1.2.6_7d0a1a2c78dc72c3d21f73727777b5453e49e572\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AsWorkSpace\02 Android\change\ParkingLock\ulpblelib\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.2"
+        sha1="93203875186f9a02d9ece400197b2b3b6c91e9df">
+        <dex dex="E:\AsWorkSpace\02 Android\change\ParkingLock\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_36c63d535be1ad87dda11e6dc60906517d767e5f\classes.dex" />
+    </item>
+
+</items>

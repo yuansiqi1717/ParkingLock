@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color999"
+    android:gravity="center_horizontal">
+    <!--我的积分-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg4"
+        android:gravity="center_horizontal"
+        >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+                <ImageView
+                    android:id="@+id/id_back_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/back_white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="我的积分"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:textSize="32dp"
+            android:id="@+id/id_tv_integral"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="可用积分"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            android:id="@+id/id_forget_pwd"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="积分明细"
+        android:textSize="18sp"
+        android:textColor="@color/color333"
+        android:gravity="center_vertical"
+        android:background="@color/white"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color999" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/default1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="还没有积分哦~赶紧去赚取吧~"
+            android:textColor="@color/color333"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:scrollbars="none"
+        android:id="@+id/id_menu_iv"
+        android:divider="@color/color999"
+        android:dividerHeight="0.5dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+    <!--设置分享个人车位 分享时段-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始时间"
+                android:textSize="13sp"
+                />
+            <TimePicker
+                android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/id_time_picker_start"
+                >
+            </TimePicker>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="结束时间"
+                android:textSize="13sp"
+                />
+            <TimePicker
+                android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/id_time_picker_end"
+                >
+            </TimePicker>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select_transparent_bg3"
+            android:text="取消"
+            android:clickable="true"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="13sp"
+            android:id="@+id/id_cancel"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select_transparent_bg4"
+            android:text="确定"
+            android:clickable="true"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="-1dp"
+            android:textSize="13sp"
+            android:id="@+id/id_ok"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

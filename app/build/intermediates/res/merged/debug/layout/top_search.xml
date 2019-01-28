@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/id_platform_top"
+    android:background="@color/color000"
+    android:gravity="center_vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+
+        <com.saiyi.parkinglock.base.common.widget.IconFontView
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+            android:text="@string/close_icon"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:id="@+id/id_back_tv"
+            android:gravity="center_vertical"
+            />
+
+        <AutoCompleteTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_landmark_search_tv"
+            android:textColor="@color/color999"
+            android:textSize="13sp"
+            android:textColorHint="@color/color999"
+            android:layout_gravity="center_vertical"
+            />
+
+
+        <com.saiyi.parkinglock.widget.GrayTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="搜索"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:id="@+id/id_edit_tv"
+            android:gravity="right|center_vertical"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

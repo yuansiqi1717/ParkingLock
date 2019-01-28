@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_in.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\anim\\push_in.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_out.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\anim\\push_out.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_buttom_enter.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\anim\\popup_buttom_enter.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\translate_exit.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\anim\\translate_exit.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\menu_dialog_out_anim.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\anim\\menu_dialog_out_anim.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_appear.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\anim\\dialog_appear.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\alpha_in.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\anim\\alpha_in.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\j_anim_enter_bottom.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\anim\\j_anim_enter_bottom.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_disappear.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\anim\\dialog_disappear.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_buttom_exit.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\anim\\popup_buttom_exit.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\custom_dialog_enter.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\anim\\custom_dialog_enter.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\j_anim_exit_bottom.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\anim\\j_anim_exit_bottom.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\translate_enter.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\anim\\translate_enter.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\menu_dialog_in_anim.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\anim\\menu_dialog_in_anim.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_enter.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    }
+]

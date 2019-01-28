@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\raw\\qr_sacn.mp3",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\raw\\qr_sacn.mp3"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bells.mp3",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\raw\\bells.mp3"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\raw\\districts.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\raw\\districts.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\raw\\cities.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\raw\\cities.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\raw\\provinces.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\raw\\provinces.xml"
+    }
+]

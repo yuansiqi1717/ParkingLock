@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\AsWorkSpace\02 Android\change\ParkingLock\ulpblelib\src\main\assets"/><source path="E:\AsWorkSpace\02 Android\change\ParkingLock\ulpblelib\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="E:\AsWorkSpace\02 Android\change\ParkingLock\ulpblelib\src\release\assets"/></dataSet></merger>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+    <!--用户协议-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="用户协议"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentTop="true"
+                android:text="@string/user_guide_agreement"
+                android:textColor="@color/color333"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_alignParentTop="true"
+                    android:text="1.用户的账号及安全性"
+                    android:textColor="@color/color333" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/color333"
+                    android:text="@string/user_guide_agreement_1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_alignParentTop="true"
+                    android:text="2.服务内容"
+                    android:textColor="@color/color333" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/color333"
+                    android:text="@string/user_guide_agreement_2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_alignParentTop="true"
+                    android:text="3.服务变更、中断或终止"
+                    android:textColor="@color/color333"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/color333"
+                    android:text="@string/user_guide_agreement_3"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_alignParentTop="true"
+                    android:text="4.使用规则"
+                    android:textColor="@color/color333"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/color333"
+                    android:text="@string/user_guide_agreement_4"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_alignParentTop="true"
+                    android:text="5.隐私保护"
+                    android:textColor="@color/color333" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/color333"
+                    android:text="@string/user_guide_agreement_5"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_alignParentTop="true"
+                    android:text="6.免责声明"
+                    android:textColor="@color/color333" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/color333"
+                    android:text="@string/user_guide_agreement_6"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_alignParentTop="true"
+                    android:text="7.知识产权"
+                    android:textColor="@color/color333" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/color333"
+                    android:text="@string/user_guide_agreement_7"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_alignParentTop="true"
+                    android:text="8.附则"
+                    android:textColor="@color/color333" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/color333"
+                    android:text="@string/user_guide_agreement_8"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

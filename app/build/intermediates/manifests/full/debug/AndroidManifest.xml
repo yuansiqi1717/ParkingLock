@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saiyi.parkinglock"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <permission
+        android:name="com.saiyi.parkinglock.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.saiyi.parkinglock.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 用于开启 debug 版本的应用在6.0 系统上 层叠窗口权限 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="com.saiyi.parkinglock.base.LockClientApp"
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:supportsRtl="true"
+        android:theme="@style/AnimActivityTheme" >
+
+        <!-- Glide -->
+        <meta-data
+            android:name="com.saiyi.parkinglock.base.common.glide.GlideConfiguration"
+            android:value="GlideModule" />
+        <!-- 百度地图sdk -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="PvqtLoDTIhsIkeIFdFtPCo8wpjEwbZgT" />
+
+        <!-- 友盟 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5bec3bd1f1f5567dff00061f" />
+
+        <!-- 微信分享 -->
+        <activity
+            android:name="com.saiyi.parkinglock.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- 微信支付 -->
+        <activity
+            android:name="com.saiyi.parkinglock.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wxe5c3754b35de0ed7" />
+            </intent-filter>
+        </activity>
+
+        <!-- 支付宝分享 -->
+        <activity
+            android:name="com.saiyi.parkinglock.apshare.ShareEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- QQ分享 -->
+        <activity
+            android:name="com.saiyi.parkinglock.qqapi.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" />
+        <activity
+            android:name="com.umeng.socialize.media.WBShareCallBackActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <!-- 微博分享 -->
+        <activity
+            android:name="com.sina.weibo.sdk.web.WeiboSdkWebActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.sina.weibo.sdk.share.WbShareTransActivity"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- <data android:scheme="tencent101524543" /> -->
+                <data android:scheme="tencent1108030373" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+
+        <!-- 极光推送 -->
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported="false"
+            android:theme="@style/MyDialogStyle" >
+        </activity>
+
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.saiyi.parkinglock" />
+            </intent-filter>
+        </activity>
+
+        <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:exported="false"
+            android:process=":pushcore" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+        <!-- since 3.0.9 Required SDK 核心功能 -->
+
+        <provider
+            android:name="cn.jpush.android.service.DataProvider"
+            android:authorities="com.saiyi.parkinglock.DataProvider"
+            android:exported="false" />
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.saiyi.parkinglock" />
+            </intent-filter>
+        </service>
+        <!-- since 3.1.0 Required SDK 核心功能 -->
+        <provider
+            android:name="cn.jpush.android.service.DownloadProvider"
+            android:authorities="com.saiyi.parkinglock.DownloadProvider"
+            android:exported="true" />
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="com.saiyi.parkinglock" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" />
+
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver
+            android:name="com.saiyi.parkinglock.push.MyReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.saiyi.parkinglock" />
+            </intent-filter>
+        </receiver>
+
+        <!-- User defined.  For test only  用户自定义接收消息器,3.0.7开始支持,目前新tag/alias接口设置结果会在该广播接收器对应的方法中回调 -->
+        <receiver android:name="com.saiyi.parkinglock.push.MyJPushMessageReceiver" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE" />
+
+                <category android:name="com.saiyi.parkinglock" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="58ae4948d560d95334621acc" /> <!-- </>值来自开发者平台取得的AppKey -->
+        <!-- 极光推送 -->
+
+
+        <!-- 起始页 -->
+        <activity
+            android:name="com.saiyi.parkinglock.login.StartActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 主页 -->
+        <activity
+            android:name="com.saiyi.parkinglock.device.ui.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 用户中心 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.UserCenterActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 更新昵称/车牌 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.UpdateNickActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 更新车位 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.UpdateTruckActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 分享个人车位信息 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.ShareTruckInfoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 登录 -->
+        <activity
+            android:name="com.saiyi.parkinglock.login.LoginActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 注册 -->
+        <activity
+            android:name="com.saiyi.parkinglock.login.RegisterActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 忘记密码 -->
+        <activity
+            android:name="com.saiyi.parkinglock.login.ForgetPwdActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 扫码开锁 -->
+        <activity
+            android:name="com.saiyi.parkinglock.base.common.zxing.android.CaptureActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 关于我们 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.AboutHomeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 用户协议 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.UserAgreementActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 充值协议 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.RechargeAgreementActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 搜索 -->
+        <activity
+            android:name="com.saiyi.parkinglock.device.ui.SearchActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 我的钱包 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.WalletActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 充值 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.RechargeActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 充值记录 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.RechargeRecordActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 会员卡 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.MemberShipCardActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 会员卡购买 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.MemberCardPurchaseActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 我的积分 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.IntegralActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 我的订单 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.OrderActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 订单详情 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.OrderDetailActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 故障反馈 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.IdeaFeedBackActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 设置 用户管理 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.SettingActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 更换手机号 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.UpdatePhoneActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 修改密码 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.ModifyPasswordActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 第三方登录绑定手机号 -->
+        <activity
+            android:name="com.saiyi.parkinglock.login.ThirdPartyLoginActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 用户指南 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.UserGuideActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 用户指南详情 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.GuideDetailActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 优惠券 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.CouponActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 支付设置 -->
+        <activity
+            android:name="com.saiyi.parkinglock.pay.PaySettingActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 设置支付密码 -->
+        <activity
+            android:name="com.saiyi.parkinglock.pay.PayPasswordSetActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 分享列表 -->
+        <activity
+            android:name="com.saiyi.parkinglock.user.ui.ShareListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 输入车位码开锁 -->
+        <activity
+            android:name="com.saiyi.parkinglock.device.ui.OpenByInputActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 预约车位 -->
+        <activity
+            android:name="com.saiyi.parkinglock.device.ui.ReservationParkingActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 结束租用-支付 -->
+        <activity
+            android:name="com.saiyi.parkinglock.pay.RentEndPayActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 服务 -->
+        <service
+            android:name="com.saiyi.parkinglock.base.common.service.LockService"
+            android:enabled="true" />
+
+        <!-- 百度定位官方服务 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <!-- 手机启动监听 -->
+        <receiver android:name="com.saiyi.parkinglock.base.common.service.MyReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.hzx.ulpblelib.BleService" />
+        <service android:name="com.hzx.ulpblelib.MultipleBleService" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.saiyi.parkinglock.android7.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.PayResultActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

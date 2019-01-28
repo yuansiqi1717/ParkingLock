@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <!--有效/失效优惠券-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_no_coupon"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/default1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="没有优惠券~"
+                android:textColor="@color/color333"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <in.srain.cube.views.ptr.PtrFrameLayout
+            android:id="@+id/id_prt_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/id_coupon_lv"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:dividerHeight="5dp"
+                android:divider="@null"
+                android:background="@color/color_f4"
+                >
+
+            </ListView>
+
+        </in.srain.cube.views.ptr.PtrFrameLayout>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

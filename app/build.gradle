@@ -1,0 +1,119 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.2'
+    defaultConfig {
+        applicationId "com.saiyi.parkinglock"
+        multiDexEnabled true //设置多dex可用
+        minSdkVersion 18
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    // java版本
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    buildTypes {
+        release {
+            //开启代码混淆
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+            //signingConfig signingConfigs.release  //使用上述签名信息
+            proguardFiles 'proguard-rules.pro'
+            // 移除无用的resource文件
+            shrinkResources false
+        }
+
+        debug {
+            //开启代码混淆
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+            proguardFiles 'proguard-rules.pro'
+            // 移除无用的resource文件
+            shrinkResources false
+        }
+    }
+
+    signingConfigs{
+        release{
+            storeFile file("saiyi.keystore")
+            storePassword "123456789"
+            keyAlias "parkingLock"
+            keyPassword "123456789"
+        }
+
+        debug{
+            storeFile file("saiyi.keystore")
+            storePassword "123456789"
+            keyAlias "parkingLock"
+            keyPassword "123456789"
+        }
+    }
+
+    lintOptions {
+        disable "ResourceType"
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+    }
+
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/logger.jar')
+    compile files('libs/ultrapulltorefresh.jar')
+    compile 'com.android.support:support-v4:28.0.0'
+    compile 'com.android.support:appcompat-v7:28.0.0'
+    compile 'com.android.support:recyclerview-v7:28.0.0'
+    compile 'com.google.zxing:core:3.3.0'
+    compile 'com.google.zxing:android-core:3.3.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.jakewharton:butterknife:8.8.1'
+    compile 'com.jakewharton:butterknife-compiler:8.8.1'
+    compile 'org.greenrobot:eventbus:3.1.1'
+    /**retrofit2*/
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    /**rxjava*/
+    compile 'io.reactivex.rxjava2:rxjava:2.1.10'
+    /**rxandroid*/
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    /**rxpermission*/
+    compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
+    compile project(':ulpblelib')
+    compile project(':lib.fast')
+    compile files('libs/SecurityEnvSDK-release-1.1.0.jar')
+    compile files('libs/umeng-common-1.5.4.jar')
+    compile files('libs/umeng-share-alipay-6.9.3.jar')
+    compile files('libs/umeng-share-core-6.9.3.jar')
+    compile files('libs/umeng-share-QQ-simplify-6.9.3.jar')
+    compile files('libs/umeng-share-sina-simplify-6.9.3.jar')
+    compile files('libs/umeng-share-wechat-simplify-6.9.3.jar')
+    compile files('libs/umeng-shareboard-widget-6.9.3.jar')
+    compile files('libs/umeng-sharetool-6.9.3.jar')
+    compile files('libs/libapshare20161108.jar')
+    compile files('libs/wechat-sdk-android-with-mta-5.1.6.jar')
+    compile(name: 'alipaySdk-15.5.7-20181023110917', ext: 'aar')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/jcore-android-1.2.6.jar')
+    compile files('libs/jpush-android-3.1.7.jar')
+    compile files('libs/okhttputils.jar')
+}

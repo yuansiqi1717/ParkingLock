@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:auto="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    >
+
+    <!--公共头部-->
+    <com.saiyi.parkinglock.widget.CommonTitleBar
+        android:id="@+id/id_common_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        auto:leftBtnColor="@android:color/black"
+        auto:leftBtnSize="20sp"
+        auto:leftBtnWords="@string/common_title_left_text"
+        auto:centerTvColor="@android:color/black"
+        auto:centerTvSize="17sp"
+        auto:centerTvWords="@string/common_title_center_text"
+        auto:rightBtnColor="@android:color/black"
+        auto:rightBtnSize="20sp"
+        auto:rightBtnWords="@string/common_title_right_text">
+
+    </com.saiyi.parkinglock.widget.CommonTitleBar>
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_marginRight="10dp"
+        android:id="@+id/id_loading_progress"
+        android:layout_gravity="right|center_vertical"
+        android:visibility="gone"
+        />
+
+</FrameLayout>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <include
+        layout="@layout/top_common"
+        android:visibility="gone"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_ll_bg">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请扫描故障车位二维码或输入车位编号"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="13sp"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/color999">
+                <EditText
+                    android:id="@+id/id_parking_no"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:gravity="center|start"
+                    android:layout_alignParentLeft="true"
+                    android:background="@color/transparent"/>
+
+                <ImageView
+                    android:id="@+id/id_iv_scan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/qr_code"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/select_check_box_bg"
+                        android:id="@+id/id_check_question_box"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="二维码脱落"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/select_check_box_bg"
+                        android:id="@+id/id_check_mobile_question_box"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="问题二"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/select_check_box_bg"
+                        android:id="@+id/id_idea_box"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="问题三"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/select_check_box_bg"
+                        android:id="@+id/id_master_question_box"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="问题四"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/id_five_question_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/select_check_box_bg"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="问题五"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/id_six_question_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/select_check_box_bg"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="问题六"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/id_seven_question_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/select_check_box_bg"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="问题七"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/id_other_question_box"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/select_check_box_bg"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="其他"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/id_photo_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/feedback_img"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="问题反馈"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape_gray_round_bg2">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:gravity="top|left"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/id_idea_et"
+                    android:background="@color/transparent"/>
+                <TextView
+                    android:id="@+id/tv_word_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="还可输入100字"
+                    android:textColor="@color/color666"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/select_orange_bg4"
+                android:text="确定"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:enabled="false"
+                android:id="@+id/id_sub_tv"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

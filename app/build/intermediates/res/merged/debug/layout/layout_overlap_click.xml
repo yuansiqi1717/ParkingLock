@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/shape_menu_round_bg">
+    <!--覆盖物点击出现的界面-->
+    <TextView
+        android:id="@+id/tv_site_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/black" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_rates"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textSize="14sp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="元/时"
+                    android:textSize="12sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收费标准"
+                android:textSize="12sp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_free_truck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="19"
+                    android:textSize="14sp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="个"
+                    android:textSize="12sp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空闲车位"
+                android:textSize="12sp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="@color/black" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/id_order_parking"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="预约车位"
+            android:gravity="center"
+            android:background="@drawable/shape_orange_bottom_left"/>
+        <TextView
+            android:id="@+id/id_to_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="到这儿去"
+            android:gravity="center"
+            android:background="@drawable/shape_orange_bottom_right"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+    <!--分享列表item-->
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/head_portrait"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:text="张一峰"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:id="@+id/id_tv_username"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1587878978"
+            android:textSize="12sp"
+            android:id="@+id/id_tv_account"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_pay_type"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:gravity="center|right"
+        android:text="通过朋友圈分享注册"
+        android:textSize="15sp"
+        />
+
+
+</LinearLayout>

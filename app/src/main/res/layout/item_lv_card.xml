@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/transparent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/bg5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true">
+            <ImageView
+                android:id="@+id/iv_head"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/head_portrait"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="未知"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:clickable="true"/>
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="到期时间:2018/10/01-2018/10/31"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    android:clickable="true"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_recharge"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:text="立即续费"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:visibility="visible"
+            android:background="@drawable/shape_trans_white_bg"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_use_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="8dp"
+        android:text="使用说明"
+        android:textColor="@color/color666"
+        android:clickable="true"/>
+
+</LinearLayout>

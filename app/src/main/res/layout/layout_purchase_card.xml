@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal">
+    <!--我的钱包-会员卡-->
+    <include layout="@layout/top_common"
+        android:visibility="gone"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_recharge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:text="支付方式"
+                android:textSize="18sp"
+                android:textColor="@color/color333"
+                android:gravity="start|center"/>
+            <RelativeLayout
+                android:id="@+id/rl_zfb_pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:clickable="true"
+                android:background="@drawable/select_white_bg1"
+                >
+                <ImageView
+                    android:id="@+id/id_pay_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/pay_pay"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支付宝支付"
+                    android:textSize="16sp"
+                    android:textColor="@color/color333"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/id_pay_pay"/>
+
+                <ImageView
+                    android:id="@+id/iv_zfb_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/pay_get"
+                    android:visibility="visible"/>
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/color999" />
+
+            <RelativeLayout
+                android:id="@+id/rl_wechat_pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:clickable="true"
+                android:background="@drawable/select_white_bg1"
+                >
+                <ImageView
+                    android:id="@+id/id_pay_wechat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/pay_wechat"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="微信支付"
+                    android:textSize="16sp"
+                    android:textColor="@color/color333"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/id_pay_wechat"/>
+
+                <ImageView
+                    android:id="@+id/iv_wechat_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/pay_get"
+                    android:visibility="invisible"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/color999"
+                android:visibility="visible"/>
+
+            <RelativeLayout
+                android:id="@+id/rl_money_pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:clickable="true"
+                android:background="@drawable/select_white_bg1">
+                <ImageView
+                    android:id="@+id/iv_pay_wallet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/pay_change"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="零钱支付"
+                    android:textSize="16sp"
+                    android:textColor="@color/color333"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/iv_pay_wallet"/>
+
+                <ImageView
+                    android:id="@+id/iv_money_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pay_get"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentRight="true"
+                    android:visibility="invisible"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="已使用优惠券"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="-10"
+                    android:textSize="14sp"
+                    android:textColor="@color/color999"
+                    android:gravity="center|right"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/color999"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/id_purchase_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/select_orange_bg4"
+                android:text="购买"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:enabled="true" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

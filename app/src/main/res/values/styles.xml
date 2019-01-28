@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="dialog_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_appear</item>
+        <item name="android:windowExitAnimation">@anim/dialog_disappear</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AnimActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorAccent">@color/color_c2</item>
+    </style>
+
+    <style name="ActivityVideoTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Dialog_Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+
+    <style name="CustomDialog" parent="android:style/Theme.Dialog">
+        <!--背景颜色及透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowEnterAnimation">@anim/custom_dialog_enter</item>
+    </style>
+
+    <style name="hintTheme" parent="@android:style/Theme.Translucent">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="NavPage">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:orientation">vertical</item>
+    <item name="android:gravity">center_horizontal</item>
+    <!-- <item name="android:background">@drawable/nav_page</item> -->
+    <item name="android:background">@color/color999</item>
+    </style>
+
+</resources>

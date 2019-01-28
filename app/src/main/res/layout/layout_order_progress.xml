@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/shape_circle_white_bg10"
+    android:descendantFocusability="blocksDescendants"
+    android:clickable="true">
+    <!--预约进程/租用进程-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="12dp"
+            android:id="@+id/tv_reservation_status"
+            android:text="预约中 "
+            android:textSize="20sp"
+            android:inputType="number"
+            android:textColor="@color/color_orange" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="12dp"
+            android:background="@null"
+            android:id="@+id/id_tv_no"
+            android:textSize="15sp"
+            android:textColor="@color/color666" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/into"/>
+
+
+</LinearLayout>

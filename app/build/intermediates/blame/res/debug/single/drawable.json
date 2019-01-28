@@ -1,0 +1,614 @@
+[
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_key_board_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_key_board_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_search_inputbox.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\bg_search_inputbox.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_my_center_bg1.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_my_center_bg1.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_left_round_bg2.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_left_round_bg2.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slt_as_ios7_other_bt_middle.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\slt_as_ios7_other_bt_middle.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector_back.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\button_selector_back.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_my_center_bg2.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_my_center_bg2.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\recharge_select.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\recharge_select.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\action_btn.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\action_btn.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_left_round_bg1.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_left_round_bg1.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_transparent_bg1.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_transparent_bg1.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_member_card_gray.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_member_card_gray.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_bg5.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_circle_bg5.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_white_bg10.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_circle_white_bg10.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_blue_list.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_blue_list.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_check_pay.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_check_pay.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_gride.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\selector_gride.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_positive_btn.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\bg_positive_btn.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slt_as_ios7_other_bt_top.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\slt_as_ios7_other_bt_top.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_color.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\divider_color.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_shadow.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_shadow.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_bg4.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_circle_bg4.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rect_black_bg4.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_rect_black_bg4.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_orange_round1.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_orange_round1.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_right_round_bg2.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_right_round_bg2.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mtrl_snackbar_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\drawable\\mtrl_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_transparent_bg3.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_transparent_bg3.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mtrl_tabs_default_indicator.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\drawable\\mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_right_line.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\list_right_line.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_gray_enable.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_gray_enable.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2f9a3b4a90f913f3a1f6f5e7f46d914c59e73fdf\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_member_card_orange.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_member_card_orange.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_rect_bg1.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_circle_rect_bg1.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_transparent_bg4.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_transparent_bg4.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_menu_round_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_menu_round_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_left_line.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\list_left_line.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_orange_bg1.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_orange_bg1.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rect_black_bg3.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_rect_black_bg3.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2f9a3b4a90f913f3a1f6f5e7f46d914c59e73fdf\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_inputbox.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\bg_inputbox.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_orange_round3.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_orange_round3.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_orange_bottom_left.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_orange_bottom_left.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_orange_bg4.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_orange_bg4.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mtrl_chip_checked_circle.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\drawable\\ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_my_center_bg3.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_my_center_bg3.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_transparent_bg7.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_transparent_bg7.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_check_box_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_check_box_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_bg3.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_circle_bg3.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_white_bg1.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_white_bg1.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mtrl_chip_close_circle.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\drawable\\ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_remember_card.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\selector_remember_card.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_white_bg4.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_white_bg4.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_black_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_black_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\j_wheel_timebtn.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\j_wheel_timebtn.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_orange_bottom_right.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_orange_bottom_right.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2f9a3b4a90f913f3a1f6f5e7f46d914c59e73fdf\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_orange_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_orange_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_orange_bg3.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_orange_bg3.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_white_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_white_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_level.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\loading_level.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_white_bg3.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_white_bg3.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_custom_dialog_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_custom_dialog_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_gray_round_bg2.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_gray_round_bg2.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slt_as_ios7_other_bt_single.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\slt_as_ios7_other_bt_single.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_gray_bg2.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_gray_bg2.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_gray_round_bg1.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_gray_round_bg1.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slt_as_ios7_cancel_bt.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\slt_as_ios7_cancel_bt.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_transparent_bg8.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_transparent_bg8.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_mtrl_chip_checked_black.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\drawable\\ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_white_bg1.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_circle_white_bg1.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_white_bg2.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_white_bg2.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rect_black_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_rect_black_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_ui_alert_view.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\shape_ui_alert_view.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transparent.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\transparent.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_transparent_bg9.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_transparent_bg9.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_tab_text.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\bg_tab_text.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_round_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_selector.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\delete_selector.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_bg1.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_circle_bg1.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rect_black_bg1.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_rect_black_bg1.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2f9a3b4a90f913f3a1f6f5e7f46d914c59e73fdf\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_yellow_bg2.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_circle_yellow_bg2.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slt_as_ios7_other_bt_bottom.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\slt_as_ios7_other_bt_bottom.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_transparent_bg6.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_transparent_bg6.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_rect_bg2.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_circle_rect_bg2.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_check_box_bg2.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_check_box_bg2.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_frame.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_frame.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\half_transparent.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\half_transparent.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\style_recorder_progress.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\style_recorder_progress.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_orange_bg6.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_orange_bg6.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\loading_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_trans_white_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_trans_white_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rect_black_bg2.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_rect_black_bg2.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_gray_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_gray_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_transparent_bg5.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_transparent_bg5.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_key_del.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\selector_key_del.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_city_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_city_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_platform_top_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_platform_top_bg.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_orange_bg5.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_orange_bg5.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_orange_round2.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_orange_round2.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_circle_bg2.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_circle_bg2.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_hint_text.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_hint_text.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_right_round_bg1.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_right_round_bg1.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_transparent_bg10.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_transparent_bg10.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressloading.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\drawable\\progressloading.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_gray_bg4.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_gray_bg4.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_gray_bg1.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\select_gray_bg1.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rect_black_bg5.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\shape_rect_black_bg5.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_keyboard_key_bg.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable\\selector_keyboard_key_bg.xml"
+    }
+]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_margin="40dp"
+    android:orientation="vertical"
+    android:background="@drawable/shape_circle_white_bg1">
+    <!--续约成功提示-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="续约成功"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/renew_success_tip"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/id_confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/select_orange_bg4"
+        android:text="知道了"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

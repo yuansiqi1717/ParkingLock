@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/shape_menu_round_bg">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_create_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未知"
+                android:textSize="13sp"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018-02-08 15:34:34"
+                android:id="@+id/id_end_time_tv"
+                android:textSize="12sp"
+                android:layout_alignParentRight="true"
+                android:gravity="center|start"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="停车时长"
+                android:textColor="@color/color333"
+                android:textSize="13sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:gravity="center"
+                android:text="未知"
+                android:textColor="@color/color_orange"
+                android:textSize="20sp"
+                android:id="@+id/tv_start_time"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="支付金额"
+                android:textColor="@color/color333"
+                android:textSize="13sp"
+                />
+            <TextView
+                android:id="@+id/tv_pay_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="未知"
+                android:textColor="@color/color_orange"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车位号"
+                android:textSize="13sp"
+                android:textColor="@color/color333"/>
+            <TextView
+                android:id="@+id/tv_truck_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="未知"
+                android:textSize="13sp"
+                android:textColor="@color/color333"
+                android:gravity="center|start"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_park_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="13sp"
+            android:text="地址未知"
+            android:textColor="@color/color333"
+            android:gravity="center|start"/>
+
+
+</LinearLayout>

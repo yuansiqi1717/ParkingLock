@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<com.saiyi.parkinglock.base.common.widget.IconFontView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20sp"-->
+            <!--android:text="@string/back_icon"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:id="@+id/id_finish"-->
+            <!--/>-->
+        <ImageView
+            android:id="@+id/id_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            />
+
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/color_a0"/>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:id="@+id/id_city_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="@drawable/shape_city_bg"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/id_current_layout"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/common_index_gps"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="当前位置"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/color999"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="深圳市"
+                    android:id="@+id/id_current_city"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color999"
+                android:layout_marginTop="20dp"
+                android:id="@+id/id_hot_city_line_tv"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:id="@+id/id_hot_city_layout"
+                >
+
+                <ListView
+                    android:id="@+id/id_hot_city_lv"
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/color999"
+                    android:dividerHeight="0dp"
+                    android:background="@android:color/white"
+                    >
+
+
+                </ListView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color999"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color999"
+                android:layout_marginTop="20dp"
+                android:id="@+id/id_line"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                >
+
+                <ListView
+                    android:id="@+id/id_all_province_lv"
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/color999"
+                    android:dividerHeight="0dp"
+                    >
+
+
+                </ListView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color999"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color999"
+    >
+    <!--分享个人车位信息-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/white"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/id_back_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="分享个人车位信息"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/rl_choose_time"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:clickable="true"
+            android:background="@drawable/select_white_bg1"
+            android:descendantFocusability="blocksDescendants">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="分享时段"
+                android:textColor="@color/color333"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+            <EditText
+                android:id="@+id/et_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color666"
+                android:textSize="16sp"
+                android:hint="请设置开始及结束时间"
+                android:gravity="center|right"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/id_iv_back"
+                android:background="@color/transparent" />
+
+            <ImageView
+                android:id="@+id/id_iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/into"
+                />
+
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/color999" />
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:clickable="true"
+            android:background="@drawable/select_white_bg1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收费方案"
+                android:textSize="16sp"
+                android:textColor="@color/color333"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+            <EditText
+                android:id="@+id/et_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color666"
+                android:textSize="16sp"
+                android:hint="请输入收费方案 (元/时)"
+                android:inputType="number"
+                android:gravity="center|right"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/id_tv_back1"
+                android:background="@color/transparent"/>
+
+            <ImageView
+                android:id="@+id/id_tv_back1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/into"
+                />
+
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/color999" />
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:clickable="true"
+            android:background="@drawable/select_white_bg1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车位锁编码"
+                android:textColor="@color/color333"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+            <EditText
+                android:id="@+id/et_truck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color666"
+                android:textSize="16sp"
+                android:hint="请输入车位锁编码"
+                android:gravity="center|right"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/iv_back"
+                android:background="@color/transparent"/>
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/into"
+                />
+
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/color999" />
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:clickable="true"
+            android:background="@drawable/select_white_bg1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系电话"
+                android:textColor="@color/color333"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+            <EditText
+                android:id="@+id/et_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color666"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/id_tv_back2"
+                android:hint="请输入联系方式"
+                android:gravity="center|right"
+                android:inputType="number"
+                android:background="@color/transparent"/>
+
+            <ImageView
+                android:id="@+id/id_tv_back2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/into"
+                />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/id_iv_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/feedback_img"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/id_share_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/select_orange_bg4"
+        android:text="分享"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:enabled="true" />
+
+
+</LinearLayout>

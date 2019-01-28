@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/id_current_lock_name"
+            android:text="10000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/id_bd_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.baidu.mapapi.map.MapView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_above="@+id/id_scan_open">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true">
+                <ImageView
+                    android:id="@+id/iv_card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/map_card"/>
+
+                <ImageView
+                    android:id="@+id/iv_current"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/map_current"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true">
+                <ImageView
+                    android:id="@+id/iv_shake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/map_shake"/>
+                <ImageView
+                    android:id="@+id/iv_fault"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/map_fault"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ll_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_alignParentTop="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:padding="5dp"
+                android:visibility="visible">
+                <ImageView
+                    android:id="@+id/iv_user_center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/menu"/>
+                <TextView
+                    android:id="@+id/id_search"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="40dp"
+                    android:padding="5dp"
+                    android:background="@drawable/shape_platform_top_bg"
+                    android:text="搜索位置查找附近车位"
+                    android:clickable="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/tv_top1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="智能车位锁"
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:textColor="@color/color_orange"/>
+                <TextView
+                    android:id="@+id/tv_top2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="视频识别检测装置"
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:textColor="@color/color333"/>
+                <TextView
+                    android:id="@+id/tv_top3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="立体车库停车设备"
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:textColor="@color/color333"/>
+                <TextView
+                    android:id="@+id/tv_top4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="生态智能停车场"
+                    android:textSize="11sp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:textColor="@color/color333"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <include layout="@layout/layout_order_progress"
+            android:id="@+id/id_reservation_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/id_ll_top"
+            android:clickable="true"
+            android:visibility="gone">
+
+        </include>
+
+        <include layout="@layout/layout_rent_progress"
+            android:id="@+id/id_rent_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/id_ll_top"
+            android:clickable="true"
+            android:visibility="gone">
+        </include>
+
+        <!--扫码开锁-->
+        <LinearLayout
+            android:id="@+id/id_scan_open"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="40dp"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/select_orange_bg4">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/map_sweep"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="扫码开锁"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

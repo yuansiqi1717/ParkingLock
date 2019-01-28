@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color999">
+    <!--个人中心 昵称-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/id_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="start|center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:clickable="true"
+            android:background="@drawable/back"/>
+        <TextView
+            android:id="@+id/id_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/id_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="保存"
+            android:textColor="@color/color_a0"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:gravity="right|center"
+            android:clickable="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <com.saiyi.parkinglock.base.common.widget.ClearEditText
+            android:id="@+id/id_edit_et"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/color666"
+            android:textSize="16sp"
+            android:gravity="center|start"
+            android:background="@color/transparent"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

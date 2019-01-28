@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <!-- 整体透明画布 -->
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- 扫描取景框 -->
+    <com.saiyi.parkinglock.base.common.zxing.view.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="top"
+        android:background="@color/transparent">
+
+        <ImageButton
+            android:id="@+id/capture_imageview_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="58dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="对准车位上的二维码"/>
+
+        <TextView
+            android:id="@+id/id_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="58dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="手电筒"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/id_rl_bottom"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:layout_marginRight="30dp"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:background="@color/transparent"-->
+        <!--&gt;-->
+
+    <LinearLayout
+        android:id="@+id/id_rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@color/transparent"
+        >
+
+        <LinearLayout
+            android:id="@+id/id_input_open"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="55dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:layout_gravity="bottom"
+            android:visibility="visible">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/sweep_handwritten"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:text="输入编号开锁"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ll_light"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="55dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:layout_gravity="bottom"
+            android:visibility="visible">
+            <ImageView
+                android:id="@+id/iv_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/sweep_light"/>
+
+            <TextView
+                android:id="@+id/tv_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:text="打开手电筒"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/id_input_open"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="55dp"-->
+        <!--android:orientation="vertical"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:clickable="true"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:visibility="visible">-->
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:background="@drawable/sweep_handwritten"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="16sp"-->
+            <!--android:text="输入编号开锁"/>-->
+    <!--</LinearLayout>-->
+
+</merge>

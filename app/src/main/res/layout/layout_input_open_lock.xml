@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/id_tv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/back"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitCenter"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="输入正确的车位锁编号"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+    <!--输入车位编号开锁-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/et_no_1"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:maxLength="1"
+            android:background="@drawable/shape_gray_round_bg1"/>
+        <EditText
+            android:id="@+id/et_no_2"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:maxLength="1"
+            android:background="@drawable/shape_gray_round_bg1"/>
+        <EditText
+            android:id="@+id/et_no_3"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:maxLength="1"
+            android:background="@drawable/shape_gray_round_bg1"/>
+        <EditText
+            android:id="@+id/et_no_4"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:maxLength="1"
+            android:background="@drawable/shape_gray_round_bg1"/>
+        <EditText
+            android:id="@+id/et_no_5"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:maxLength="1"
+            android:background="@drawable/shape_gray_round_bg1"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="25dp" />
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="请确认输入的为正确的车位编号,以免误开别的车位。"
+        android:textColor="@color/color333"
+        android:textSize="14sp"
+        android:layout_marginLeft="25dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/id_confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/select_orange_bg4"
+        android:text="确定"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:enabled="false" />
+
+</LinearLayout>

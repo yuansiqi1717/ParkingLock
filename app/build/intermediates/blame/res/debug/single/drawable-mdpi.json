@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\loading3.png",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable-mdpi\\loading3.png"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\loading1.png",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable-mdpi\\loading1.png"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\loading2.png",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\drawable-mdpi\\loading2.png"
+    }
+]

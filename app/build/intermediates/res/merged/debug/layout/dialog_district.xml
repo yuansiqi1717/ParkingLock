@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--<com.saiyi.parkinglock.base.common.widget.IconFontView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="20sp"-->
+            <!--android:text="@string/back_icon"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:id="@+id/id_finish"-->
+            <!--/>-->
+
+        <ImageView
+            android:id="@+id/id_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/color_a0"/>
+
+    <ListView
+        android:id="@+id/id_area_lv"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/color999"
+        android:dividerHeight="0dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="-1dp"
+        />
+
+
+</LinearLayout>

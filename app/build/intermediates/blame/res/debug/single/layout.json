@@ -1,0 +1,698 @@
+[
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_renew_success.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_renew_success.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_pay_type.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\view_pay_type.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_home.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_about_home.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_order_success.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_order_success.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_search.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\top_search.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recharge_record.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_recharge_record.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_calendar.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\top_calendar.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_rent_detail.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_rent_detail.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recharge_agreement.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_recharge_agreement.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mtrl_layout_snackbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_bar.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\search_bar.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_open_failure.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_open_failure.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_overlap_click.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_overlap_click.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_city_title.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_city_title.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_grid_keyboard.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_grid_keyboard.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_error_layout.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\view_error_layout.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_coupon.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\fragment_coupon.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_city_name.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_city_name.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_order_progress.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_order_progress.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_wifi_info.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_wifi_info.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\navbar.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\navbar.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_center_name.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_my_center_name.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_multi_image.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\fragment_multi_image.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_idea.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_idea.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_choose_coupon.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_choose_coupon.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_my_wallet.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_my_wallet.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_top.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\common_top.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0ea4213ec01ac024a1fdaa872d7577070f6e6044\\output\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2f9a3b4a90f913f3a1f6f5e7f46d914c59e73fdf\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_store_member_card.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_store_member_card.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bind_new_phone.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_bind_new_phone.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_rent_progress.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_rent_progress.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_share_parking_info.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_share_parking_info.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_cascading_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\top_common.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\top_common.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_custom_loding_dialog_layout.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\activity_custom_loding_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recharge.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_recharge.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_choose_map.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\dialog_choose_map.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_district.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\dialog_district.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_capture.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_map_overlay.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_map_overlay.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0ea4213ec01ac024a1fdaa872d7577070f6e6044\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0ea4213ec01ac024a1fdaa872d7577070f6e6044\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_rent_end_pay.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_rent_end_pay.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_guide.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_user_guide.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_share.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\dialog_share.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_card.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_lv_card.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_setting.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_setting.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mtrl_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\mtrl_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\version_update.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\version_update.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forget_pwd.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_forget_pwd.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_hand_img.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\dialog_hand_img.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0ea4213ec01ac024a1fdaa872d7577070f6e6044\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_rent_pay_success.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_rent_pay_success.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0ea4213ec01ac024a1fdaa872d7577070f6e6044\\output\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_recharge_record.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_recharge_record.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_search.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_search.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_member_ship_card.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_member_ship_card.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_share.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_share.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2f9a3b4a90f913f3a1f6f5e7f46d914c59e73fdf\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_menu.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_menu.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_input_open_lock.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_input_open_lock.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_order_end.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_order_end.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2f9a3b4a90f913f3a1f6f5e7f46d914c59e73fdf\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_city.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\dialog_city.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_bluetooth_tip.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_bluetooth_tip.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_order_detail.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_order_detail.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customer_notitfication_layout.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\customer_notitfication_layout.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pay_item_view.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\pay_item_view.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_my_center.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\dialog_my_center.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\j_picker_dialog.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\j_picker_dialog.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_user_agreement.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_user_agreement.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_bind_phone.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_bind_phone.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_share_list.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_share_list.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_viewpager.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\include_viewpager.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_set_share_truck_time.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\dialog_set_share_truck_time.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_bluetooth.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_bluetooth.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2f9a3b4a90f913f3a1f6f5e7f46d914c59e73fdf\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_alert_dialog.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\common_alert_dialog.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_my_integral.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_my_integral.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_pay_setting.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_pay_setting.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_to_address.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_to_address.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_order_parking.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_order_parking.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0ea4213ec01ac024a1fdaa872d7577070f6e6044\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_feedback_success.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_feedback_success.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\j_picker_items.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\j_picker_items.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_tooltip.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_tooltip.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_parking_setting.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_parking_setting.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_loading_footer.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\view_loading_footer.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_grid_keyboard_delete.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_grid_keyboard_delete.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_truck.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_truck.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_input_pay_pwd.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_input_pay_pwd.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_condition.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_condition.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_camera.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\list_item_camera.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cmp_customer_actionbar.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\cmp_customer_actionbar.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0ea4213ec01ac024a1fdaa872d7577070f6e6044\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recharge.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_recharge.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qr_scan.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\activity_qr_scan.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_purchase_card.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_purchase_card.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0ea4213ec01ac024a1fdaa872d7577070f6e6044\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0ea4213ec01ac024a1fdaa872d7577070f6e6044\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_pay_password_setting.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_pay_password_setting.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2f9a3b4a90f913f3a1f6f5e7f46d914c59e73fdf\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gride.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_gride.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_countdown_reminder.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_countdown_reminder.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_input_pay_pwd.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\dialog_input_pay_pwd.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_lock_main.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\frag_lock_main.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_open_success.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_open_success.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_province.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\dialog_province.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\741d5361d39138c881fbcada5a96ef22a258e2a0\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_order_details.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_order_details.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_image.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\list_item_image.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_center.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_my_center.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_keyboard.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\view_keyboard.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_default.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\activity_default.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_share_list.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_share_list.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_folder.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\list_item_folder.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_update_pwd.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_update_pwd.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_coupon.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_coupon.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ui_alert_view.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\lib.fast\\build\\intermediates\\bundles\\default\\res\\layout\\ui_alert_view.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide_detail.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\activity_guide_detail.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_key_board.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_key_board.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_coupon.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\item_coupon.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_my_order.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\layout_my_order.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pay_result.xml",
+        "source": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\src\\main\\res\\layout\\pay_result.xml"
+    },
+    {
+        "merged": "E:\\AsWorkSpace\\02 Android\\change\\ParkingLock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53e33bb0eee4e0a7af8ca7e370b113f58c1f1b0c\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    }
+]

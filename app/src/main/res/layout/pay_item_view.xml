@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:drawablePadding="22dp"
+        android:id="@+id/tv_title"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/iv_select"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/pay_get"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</android.support.constraint.ConstraintLayout>

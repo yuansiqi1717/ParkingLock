@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    android:background="@drawable/shape_blue_list">
+    <!--扫描到的蓝牙设备列表-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+        <ImageView
+            android:id="@+id/id_back_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/back"
+            android:clickable="true"/>
+        <TextView
+            android:id="@+id/id_common_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="车位列表"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:gravity="center"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color999"/>
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        android:id="@+id/id_lv_truck"
+        android:dividerHeight="1dp"
+        android:divider="@color/color_f3" />
+
+</LinearLayout>

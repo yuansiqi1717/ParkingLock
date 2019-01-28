@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">爱码停车</string>
+
+    <string name="action_settings">设置</string>
+    <string name="hello_world">你好，世界！</string>
+
+    <string name="header_hint_refresh_normal">下拉刷新..</string>
+    <string name="header_hint_refresh_ready">释放刷新</string>
+    <string name="header_hint_refresh_loading">正在刷新&#8230;</string>
+    <string name="header_hint_refresh_time">时间：</string>
+    <string name="footer_hint_load_normal">加载更多</string>
+    <string name="footer_hint_load_ready">释放加载更多</string>
+
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="button_ok">OK</string>
+    <string name="viewfinderview_status_text1">将二维码放入扫描区域</string>
+    <string name="viewfinderview_status_text2">即可自动扫描</string>
+
+    <!--自定义alertDialog-->
+    <string name="alert_dialog_text">AlertDialog提示</string>
+
+
+    <!--公共头部-->
+    <string name="common_title_left_text">返回</string>
+    <string name="common_title_center_text">设备名称</string>
+    <string name="common_title_right_text">确定</string>
+
+    <!--net_work-->
+    <string name="net_work_not_use">当前网络不可用,请连接网络</string>
+    <string name="current_mobile_date">当前网络为移动数据</string>
+    <string name="current_wifi_date">当前网络为WIFI数据</string>
+    <string name="current_not_net_work">当前无网络,前往设置网络吗？</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="mobile_date">移动数据</string>
+    <string name="wifi_data">wifi数据</string>
+
+    <!--sd-->
+    <string name="sd_not">SD不存在</string>
+    <string name="sd_loading">SD卡已装载</string>
+
+    <!--登陆-->
+    <string name="login_failure">登陆失败，请检查账号密码</string>
+    <string name="login_success">登陆成功</string>
+    <string name="login_time_out">登陆超时</string>
+    <string name="server_abnormal">服务器异常</string>
+    <string name="data_abnormal">数据异常</string>
+    <string name="call_failure">访问失败</string>
+    <string name="call_abnormal">访问异常</string>
+    <string name="call_time_out">访问超时</string>
+    <string name="please_login">请先登录</string>
+    <string name="abnormal">异常</string>
+    <string name="not_login">未登录</string>
+
+    <!--账户-->
+    <string name="account_not_null">账号不能为空</string>
+    <string name="pwd_not_nulls">密码不能为空</string>
+    <string name="register_pwd_rule">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <!--exit-->
+    <string name="exit_procedure">再按一次退出程序</string>
+
+    <string name="time_yesterday">昨天</string>
+    <string name="time_day">日</string>
+    <string name="time_month">月</string>
+    <string name="time_year">年</string>
+    <string name="time_more">99+</string>
+
+    <string name="recharge">立即\n充值</string>
+    <string name="bluetooth_tip">打开手机蓝牙，轻轻摇晃手机,\n即可开锁。</string>
+    <string name="renew_success_tip">即刻起开始计时收费,\n请及时开锁。</string>
+    <string name="reservation_tip">即刻起该车位将为您保留</string>
+    <string name="reservation_tip1">分钟,超时可选择</string>
+    <string name="reservation_tip2">继续保留或自动取消,继续保留会按时收费</string>
+
+    <!--协议-->
+    <!--充值协议-->
+    <string name="recharge_agreement_1">    爱码停车账户由黄猫车（深圳）科技有限公司\n（以下简称“爱码停车服务平台”）设立，可在爱码停\n车服务平台及合作的第三方服务提供商处消费的，可\n反复充值的预付账户。爱码停车账户余额不可提现及\n退款、不可透支、不计利息。</string>
+    <string name="recharge_agreement_2">    爱码停车账户名为用户注册时提供的手机号码,\n用户享受各项服务均需要通过该手机号码进行操作，\n请妥善保管。</string>
+    <string name="recharge_agreement_3">    凡在中华人民共和国境内合法注册的企事业单\n位、机关、团体等（以下统称“单位”）及具有完全民\n事行为能力的境内外居民（以下统称“个人”）均可申\n请办理爱码停车账户。申请办理、使用爱码停车账户\n的单位和个人，均须遵守本管理规定的各项规定。</string>
+    <string name="recharge_agreement_4">    账户申请方式。单位或个人用户可以通过爱码停\n车服务平台在线办理或者拨打客服电话咨询。账户的\n用户名为注册的手机号，申请人不能通过现金支付，\n应通过微信支付、支付宝支付等方式充值。</string>
+    <string name="recharge_agreement_5">    用户充值后，账户余额不能办理退款以及赠送部\n分的优惠券均不能转移、转赠。账户余额请您根据自\n己的消费情况充值，爱码停车服务平台对充值次数不\n设限制。</string>
+    <string name="recharge_agreement_6">    用户办理最低充值金额不得低于100 元，后续充\n值为五个档次的定额充值，分别为： 100 元、300\n元、 1000 元（具体详见会员充值界面）。</string>
+    <string name="recharge_agreement_7">    用户在使用第三方服务商提供的停车服务后，可\n以自行通过账户确认付款，或爱码停车服务平台在收\n到服务人员提交的订单完成信息后代为扣除相应费\n用。具体费用根据使用产品服务的价格确定，产品服\n务价格可以通过爱码停车服务平台，或拨打客服电话\n进行查询。</string>
+    <string name="recharge_agreement_8">    用户需要对所购买服务进行退货的，爱码停车服\n务平台会将该对应金额退回爱码停车账户内。</string>
+    <string name="recharge_agreement_9">    爱码停车账户开通后，申请人应当妥善保管账\n号、密码及相关信息，爱码停车服务平台不对因申请\n人原因导致的包括不限于账号、密码及相关信息的丢\n失、泄露、被窃或未经授权使用负责。</string>
+    <string name="recharge_agreement_10">   爱码停车账户应由账户所有人使用和保管。账户\n持有人因向他人转借、转让或因保管不慎而发生的一\n切消费费用及损失由账户持有人承担。</string>
+    <string name="recharge_agreement_11">   本公司及其关联公司不提供与爱码停车账户有关\n的明示或暗示的保证，包括但不限于对于其商业性或\n适用于特定用途的任何明示或暗示的保证。</string>
+    <string name="recharge_agreement_12">   为更好地提供服务，我们可以随时修改上述条\n款。请您定期查阅本规定。我们会在爱码停车官网及\n微信公众号上公布这些条款的修改通知。如果本规定\n中任何一条被视为废止、无效或因任何理由不可执\n行，该使用条件应视为可分割的且不影响任何其余条\n款的有效性和可执行性。</string>
+    <string name="recharge_agreement_13">   申请人在申请爱码停车账户前，确认已经就全部\n条款进行了详细地阅读，双方对本管理规定的全部条\n款均无异议，并对本管理规定准确无误的理解。</string>
+    <string name="recharge_agreement_14">   有关本协议相关解释均适用中华人民共和国法\n律，因履行协议产生的纠纷，可向深圳市福田区人民\n法院起诉，败诉方需承担因此造成的鉴定费、公证\n费、交通费、律师费等。</string>
+
+
+    <!--用户协议-->
+    <string name="user_guide_agreement">"           "黄猫车（深圳）科技有限公司（下称爱码停车）在此特别提醒使用者认真阅读、充分理解本《服务协议》（下称《协议》）中各条款。请阅读并选择接受或不接受本《协议》（未成年人应在法定监护人陪同下阅读）。除非接受本《协议》，否则无权注册、登录、使用本协议所涉相关服务。注册、登录、使用等行为将视为对本《协议》的接受，并同意接受本《协议》各项条款的约束。\n\n"           "使用“爱码停车”移动应用的使用者统称为“用户”，“用户”可以是注册、登录、使用本服务的个人或组织。本《协议》是用户与黄猫车（深圳）科技有限公司之间关于注册、登录、使用“爱码停车”移动应用服务所订立的协议，本协议描述“爱码停车”移动应用与用户之间关于服务相关方面的权利义务。本《协议》可由黄猫车（深圳）科技有限公司随时更新，更新后的协议条款一旦公布即代替原来的协议条款，用户可在“爱码停车”移动应用中查阅最新协议条款，用户的登录行为视为具备查阅条款的条件。在黄猫车（深圳）科技有限公司修改《协议》条款后，如果用户不接受修改后的服务，请立即向公司提出异议，或停止使用“爱码停车”提供的服务。继续使用“爱码停车”提供的服务将被视为已接受了修改后的协议。</string>
+    <string name="user_guide_agreement_1">用户一旦注册，将得到一个账号及密码。用户应保管好自己的账号及密码，若因用户管理不善而对用户自身、爱码停车或第三方造成的损害，用户将负全部责任。此外，用户将对自身账户中所有活动和事件负全责。用户可以随时改变自己的账户信息，也可以结束旧账户重开新账户。用户同意在发现密码丢失或其他非法使用账户行为和安全漏洞时，应及时告知爱码停车。</string>
+    <string name="user_guide_agreement_2">爱码停车移动应用的所有权和运作权归黄猫车（深圳）科技有限公司所有。所提供的服务必须按照其发布的公司章程、服务条款和操作规则严格执行。爱码停车移动应用可以在线查找空余车位、充值、缴费、查询停车场信息、充电等。除非本协议另有规定，爱码停车不对因网络服务问题承担任何责任，即用户自己对网络服务的使用承担风险。爱码停车不保证服务一定满足用户使用要求，也不保证服务不会受中断，对服务的及时性、安全性、准确性也不作担保。</string>
+    <string name="user_guide_agreement_3">以下情况爱码停车有权在告知用户后中断或终止对用户提供本协议所描述的网络服务而无需对用户或任何第三方承担责任：\n1）用户提供的个人资料不真实\n2）用户违反本协议中规定的使用规则\n3）用户其他违反法律之行为\n\n   同时，爱码停车保留依据自主判断在将来任何时间变更、修改、增加和删除本服务协议条款的权利。所有修改的协议均构成本协议的组成部分。爱码停车有权随时对协议条款进行修改，一旦协议内容发生变动，爱码停车将会在官方网站或移动应用公布修改之后的协议内容，该公布行为视为爱码停车已经尽到通知用户的义务。用户使用协议所提供之服务时应接受协议相关的规则和说明，且此规则和说明均构成本服务条款的一部分。如用户不接受协议所涉及的规则及相关说明，可以主动取消已获得的服务。</string>
+    <string name="user_guide_agreement_4">1）用户应遵守中华人民共和国有关法律、法规，特别是《中华人民共和国保守国家秘密法》、《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》等计算机和互联网的法律法规和实施办法，用户须承担一切因用户的行为直接或间接引起的法律责任。在任何情况下，爱码停车认为用户的行为可能违反国家法律、法规，可以在任何时候不经事先通知终止向该用户提供服务。\n\n    2）用户必须提供准确个人资料，如资料有任何变动，必须在三个工作日内更新。\n\n    3）用户注册成功后，视为允许爱码停车移动应用通过邮件、短信、公众号通知或其他方式向用户发送相关优惠服务信息。</string>
+    <string name="user_guide_agreement_5">用户在遵守上述协议的前提下，爱码停车将充分保护用户享有个人隐私的权利。爱码停车会对用户的个人信息严格保密，不会在未经合法用户授权时，公开、编辑或透露其个人信息及保存在爱码停车中的非公开内容，下列情况除外：\n\n    1）违反相关法律法规或爱码停车服务协议规定；\n\n    2）按照相关政府主管部门的要求，有必要向相关法律部门提供备案的内容；\n\n    3）维护社会个体和公众的权利、财产或人身安全；\n\n    4）被侵害的第三人提出权利主张；\n\n    5）为维护用户及社会公共利益的需要；\n\n   6）维护本网站的合法权益；\n\n    7）事先获得用户的明确授权；\n\n    8）符合其它相关的要求。\n\n当爱码停车与第三方合作向用户提供相关的网络服务情况下，如第三方承诺严格承担与爱码停车同等的保护用户隐私的责任，则视为客户授权爱码停车将包含个人注册资料在内的相关信息权提供给该等第三方。</string>
+    <string name="user_guide_agreement_6">1）本服务涉及到互联网及移动通讯等服务，可能会受到各个环节不稳定因素的影响。因此服务存在因上述不可抗力、计算机病毒或黑客攻击、系统不稳定、用户所在位置、用户关机、网络、通信线路原因等造成的服务中断或不能满足用户要求的风险。使用本服务的用户须承担以上风险，爱码停车对服务之及时性、安全性、准确性不作担保，对因此导致用户不能发送和接受信息、或传递错误，个人设定之时效、未予储存或其它问题不承担任何责任。对于不可抗力或无法控制原因导致的用户数据损失、丢失或服务停止，爱码停车将不承担任何责任。\n\n    2）用户信息是由用户本人自行提供的，爱码停车无法保证该信息之准确性、有效性和完整性。\n\n    3）爱码停车无法对用户的使用行为进行全面控制，因此对用户不作任何类型的担保。用户同意爱码停车的使用承担全部风险。用户使用经由本服务下载的或取得的任何资料、信息而导致该用户系统损坏或资料流失等风险自行负担。\n\n    4）爱码停车客户端内设有通往其他网站和网页的链接，但这些网站和网页并非爱码停车经营或控制，爱码停车对其正确性、合法性、正当性不负任何责任。用户启动任何此类链接或网页，所有风险自负；因使用或依赖上述网站或资源所产生的损失或损害，爱码停车不承担任何责任。\n\n    5）用户同意保障和维护爱码停车及其他用户的利益，如用户使用该服务导致爱码停车或任何其他第三人造成损失等，用户同意承担一切责任。爱码停车对用户使用网络服务所产生的任何直接、间接、偶然、特殊及继起的损害不负任何责任。\n    6）任何单位或个人认为爱码停车的内容可能涉嫌侵犯其合法权益，应该及时向爱码停车书面反馈，并提供有效身份证明、权属证明及详细侵权情况证明，在收到上述法律文件后，爱码停车将会尽快移除被控侵权内容。</string>
+    <string name="user_guide_agreement_7">爱码停车移动应用提供的服务中包含的任何文本、图片、图形、音频和视频资资料均受版权、商标、和其他财产所有权法律的保护，未经相关权利人的同意，上述资料均不得在任何媒体直接或者间接发布、播放、出于播放或发布目的而改写或者再发行，或者被用于其他任何商业目的。所有这些资料或者资料的任何部分仅可作为私人和非商业用途而保存在某台计算机内。爱码停车提供服务而使用的任何软件（包括但不限于软件中所含的任何图像、照片、动画、录像、录音、音乐、文字和附加程序、随附的帮助材料）的一切权利均属于该软件的著作权人，未经该软件的著作权人许可，用户不得对该软件进行反向工程、反向编译或反汇编。</string>
+    <string name="user_guide_agreement_8">本协议的订立、执行和解释及争议的解决均应适用中华人民共和国法律。发生争议的，可向深圳市福田区人民法院起诉，败诉方需承担因此造成的鉴定费、公证费、交通费、律师费等。如本协议中的任何条款无论何种原因完全或部分无效或不具有执行力，本协议的其余条款仍应有效并且有约束力。本协议解释权及修订权归黄猫车（深圳）科技有限公司所有。</string>
+
+    <!--登录注册疑难问题解答-->
+    <string name="login_register_issue_1">用户注册账号为11位手机号</string>
+    <string name="login_register_issue_2">用户密码限定为数字及字母大小写且不少于6位</string>
+    <string name="login_register_issue_3">用户可选填注册推荐人及推荐来源</string>
+    <string name="login_register_issue_4">登录账号为手机号</string>
+
+    <!--字体图标-->
+    <string name="more_icon">&#xe210;</string>
+    <string name="back_icon">&#xe200;</string>
+    <string name="update_icon">&#xe2c7;</string>
+    <string name="gateway_connect_icon">&#xe007;</string>
+    <string name="valid_gateway_icon">&#xe306;</string>
+    <string name="all_gateway_icon">&#xe306;</string>
+    <string name="account_icon">&#xe80B;</string>
+    <string name="pwd_icon">&#xe074;</string>
+    <string name="add_icon">&#xe069;</string>
+    <string name="server_device_icon">&#xe809;</string>
+    <string name="five_stars_icon">&#xe260;</string>
+    <string name="love_icon">&#xe291;</string>
+    <string name="setting_icon">&#xe2CB;</string>
+    <string name="half_icon">&#xe803;</string>
+    <string name="multiterm_icon">&#xe801;</string>
+    <string name="wifi_icon">&#xe801;</string>
+    <string name="ok_icon">&#xe206;</string>
+	 <string name="close_icon">&#xe209;</string>
+    <string name="close_icon_adapter">删除</string>
+    <string name="ir_icon">&#xe2B2;</string>
+    <string name="version_update_icon">&#xe2CA;</string>
+    <string name="about_us_icon">&#xe80B;</string>
+    <string name="down_icon">&#xe111;</string>
+    <string name="stop_icon">&#xe018;</string>
+    <string name="start_icon">&#xe01B;</string>
+    <string name="top_icon">&#xE901;</string>
+    <string name="downing_icon">&#xE902;</string>
+    <string name="left_icon">&#xE903;</string>
+    <string name="right_icon">&#xE904;</string>
+    <string name="left_speed_icon">&#xE905;</string>
+    <string name="right_speed_icon">&#xE906;</string>
+    <string name="rect_icon">&#xE907;</string>
+    <string name="right_speed_stop_icon">&#xE908;</string>
+    <string name="left_stop_icon">&#xE909;</string>
+    <string name="right_stop_icon">&#xE910;</string>
+    <string name="number_icon">&#xE911;</string>
+    <string name="menu_icon">&#xE0DB;</string>
+    <string name="download_icon">&#xE0FF;</string>
+    <string name="publish_choose_icon"></string>
+
+</resources>

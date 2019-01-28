@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color999"
+    android:gravity="center_horizontal">
+    <!--个人中心 设置-->
+
+    <include layout="@layout/top_common"
+        android:visibility="gone"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/rl_phone"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:clickable="true"
+            android:background="@drawable/select_white_bg1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="手机号"
+                android:textColor="@color/color333"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:id="@+id/id_phone_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_a0"
+                android:textSize="16sp"
+                android:layout_toLeftOf="@+id/id_right"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"/>
+            <ImageView
+                android:id="@+id/id_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/into"
+                />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color999" />
+        <RelativeLayout
+            android:id="@+id/rl_update_pwd"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:clickable="true"
+            android:background="@drawable/select_white_bg1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="修改密码"
+                android:textColor="@color/color333"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/into"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color999" />
+        <RelativeLayout
+            android:id="@+id/rl_pay_setting"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:clickable="true"
+            android:background="@drawable/select_white_bg1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="支付设置"
+                android:textSize="16sp"
+                android:textColor="@color/color333"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/into"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

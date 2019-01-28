@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/map_garage1"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_site_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="9sp"
+        android:layout_marginTop="5dp" />
+
+</FrameLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color999">
+    <!--个人中心 车位-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/id_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="start|center"
+            android:clickable="true"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/back"/>
+        <TextView
+            android:id="@+id/id_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/id_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="保存"
+            android:textColor="@color/color_a0"
+            android:textSize="18sp"
+            android:gravity="right|center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:clickable="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="省市"
+                android:textColor="@color/color333"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:clickable="true"/>
+
+            <com.saiyi.parkinglock.base.common.widget.ClearEditText
+                android:id="@+id/id_et_province"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:textSize="16sp"
+                android:gravity="center|start"
+                android:hint="请输入省市区地址"
+                android:textColor="@color/color666"
+                android:maxLines="2"
+                android:maxEms="10"
+                android:background="@color/transparent"/>
+
+            <ImageView
+                android:id="@+id/iv_choose_province"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/into"/>
+
+            <!--<TextView-->
+                <!--android:id="@+id/id_tv_province"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:text="未设置"-->
+                <!--android:textColor="@color/color666"-->
+                <!--android:textSize="16sp"-->
+                <!--android:gravity="center|start" />-->
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:src="@drawable/down"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/id_tv_city"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:textColor="@color/color666"-->
+                <!--android:text="未设置"-->
+                <!--android:textSize="16sp"-->
+                <!--android:gravity="center|start" />-->
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:src="@drawable/down"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/id_tv_district"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:text="未设置"-->
+                <!--android:textColor="@color/color666"-->
+                <!--android:textSize="16sp"-->
+                <!--android:gravity="center|start" />-->
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:src="@drawable/down"/>-->
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="0.5dp"
+            android:background="@color/color999"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="街道"
+                android:textColor="@color/color333"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:clickable="true"/>
+
+            <com.saiyi.parkinglock.base.common.widget.ClearEditText
+                android:id="@+id/id_tv_street"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:hint="请输入街道地址"
+                android:textColor="@color/color666"
+                android:textSize="16sp"
+                android:gravity="center|start"
+                android:background="@color/transparent"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="0.5dp"
+            android:background="@color/color999"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地址"
+                android:textColor="@color/color333"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:clickable="true"/>
+
+            <com.saiyi.parkinglock.base.common.widget.ClearEditText
+                android:id="@+id/id_et_address"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:textSize="16sp"
+                android:gravity="center|start"
+                android:hint="请输入详细地址"
+                android:textColor="@color/color666"
+                android:maxLines="2"
+                android:maxEms="10"
+                android:background="@color/transparent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_start_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--android:background="@color/black"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/login_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            >
+
+            <com.saiyi.parkinglock.base.common.widget.ClearEditText
+                android:id="@+id/id_lock_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="手机号"
+                android:padding="8dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_a0"
+                android:textCursorDrawable="@drawable/shape_hint_text"
+                android:textSize="16sp"
+                android:inputType="number"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            >
+
+            <com.saiyi.parkinglock.base.common.widget.ClearEditText
+                android:id="@+id/id_lock_user_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="密码"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_a0"
+                android:textCursorDrawable="@drawable/shape_hint_text"
+                android:textSize="16sp"
+                />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="忘记密码"
+                android:textColor="@android:color/black"
+                android:layout_alignParentRight="true"
+                android:textSize="16sp"
+                android:id="@+id/id_forget_pwd"
+                />
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/id_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/select_orange_bg4"
+            android:text="登录"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:enabled="false"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+
+            <TextView
+                android:id="@+id/id_reg_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lines="1"
+                android:text="没有账号？去注册"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_gravity="center_vertical"
+                android:text="--------------------------------------------------------------"
+                android:maxLines="1"
+                android:textColor="@color/color999"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:lines="1"
+                android:text="or"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_gravity="center_vertical"
+                android:text="--------------------------------------------------------------"
+                android:maxLines="1"
+                android:textColor="@color/color999"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_login_qq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/login_qq" />
+
+            <ImageView
+                android:id="@+id/iv_login_wechat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/login_wechat" />
+
+            <ImageView
+                android:id="@+id/iv_login_zfb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="45px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/login_pay" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

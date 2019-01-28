@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/shape_circle_white_bg1"
+    android:gravity="center">
+    <!--车位预约结束-->
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="车位预约结束"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:gravity="center"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/prompt_time"
+        android:scaleType="fitCenter"/>
+    <Button
+        android:id="@+id/id_btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="知道了"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:background="@drawable/select_orange_bg4"/>
+
+</LinearLayout>
